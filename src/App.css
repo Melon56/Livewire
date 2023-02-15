@@ -1,0 +1,98 @@
+@import './lib/Graphik.css';
+body {
+ background-color: #242424;
+ color: lightgray;
+ font-family: 'Graphik Web';
+}
+input {
+ border-radius: 12px;
+ border-width: 0px;
+ height: 20px;
+}
+button {
+ border-radius: 12px;
+ border-width: 0px;
+ background-color: #3c3c3c;
+ color: lightgray;
+ height: 23px;
+}
+.row {
+ display:flex;
+ flex-direction: column;
+}
+.column {
+ display: flex;
+ flex-direction: column;
+}
+.login {
+ flex-direction: column;
+ background-color: rgb(48, 48, 48);
+ border-radius: 3px;
+ width: 400px;
+ height: 210px;
+ align-items: center;
+ position: absolute;
+ top: 50%;
+ left: 50%;
+ transform: translate(-50%, -50%);
+}
+.login-txt {
+ font-size: 40px;
+ font-weight: 400;
+ margin-bottom: 10px;
+ margin-top: 20px;
+}
+.login-input {
+ align-self: center;
+ width: 300px;
+ margin-top:5px;
+ margin-bottom: 12px;
+}
+.login-btn {
+ align-self: center;
+ width: 302px;
+}
+.message-container {
+ margin-left: 50px;
+ margin-top: -30px
+}
+.name {
+ font-size: 20px;
+ font-weight: 400;
+ margin-bottom: -15px;
+}
+.message {
+ font-size: 17px;
+ font-weight: 200;
+}
+.timestamp {
+ font-size: 13px;
+ font-weight: 200;
+ font-style: italic;
+ color: darkgray;
+}
+.pfp {
+ width: 45px;
+ height: 45px;
+ border-radius: 50%;
+ margin-bottom: -70px;
+ margin-left: -53px;
+}
+.message-subcontainer {
+ display: flex;
+ flex-direction: column;
+ margin-bottom: 10px;
+}
+.delete-btn {
+ display: flex;
+ align-self: flex-end;
+ text-align: center;
+ margin-top: -50px;
+}
+.message-input-container {
+ position: fixed;
+ bottom: 10px;
+}
+.message-input {
+ width: 93vw;
+}
