@@ -2,13 +2,7 @@ import { initializeApp } from 'firebase/app'
 import { getAuth, signOut, signInWithEmailAndPassword, browserSessionPersistence, setPersistence, onAuthStateChanged } from 'firebase/auth'
 import { getDatabase, set, ref, remove, onChildAdded, onChildRemoved } from "firebase/database";
 const firebaseConfig = {
- apiKey: "AIzaSyAM_VmeCUH5kPzuTn0WDMOfBFBefiVwzNY",
- authDomain: "livewire-2.firebaseapp.com",
- databaseURL: "https://livewire-2-default-rtdb.firebaseio.com",
- projectId: "livewire-2",
- storageBucket: "livewire-2.appspot.com",
- messagingSenderId: "158377029094",
- appId: "1:158377029094:web:1e0bb6f942794293e9ba27",
+//firebase config here
 };
 const app = initializeApp(firebaseConfig);
 const db = getDatabase(app);
